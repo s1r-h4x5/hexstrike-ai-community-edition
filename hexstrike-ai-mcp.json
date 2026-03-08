@@ -1,9 +1,9 @@
 {
   "mcpServers": {
     "hexstrike-ai": {
-      "command": "/path/to/hexstrike/hexstrike-env/bin/python",
+      "command": "/workspaces/hexstrike-ai-community-edition/hexstrike-env/bin/python",
       "args": [
-        "/path/to/hexstrike/hexstrike_mcp.py",
+        "/workspaces/hexstrike-ai-community-edition/hexstrike_mcp.py",
         "--server",
         "http://127.0.0.1:8888",
         "--profile", 
@@ -11,7 +11,10 @@
       ],
       "description": "HexStrike AI Community Edition - Advanced Cybersecurity Automation Platform. Turn off alwaysAllow if you dont want autonomous execution!",
       "timeout": 300,
-      "alwaysAllow": []
+      "alwaysAllow": [],
+      "env": {
+        "HEXSTRIKE_API_TOKEN": "your-secret-token"
+      }
     }
   }
 }
