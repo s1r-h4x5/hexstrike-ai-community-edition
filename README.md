@@ -531,7 +531,7 @@ AI Agent: "Thank you for clarifying ownership and intent. To proceed with a pene
 - **Reduced False Positives** — Finding verification strategy (rescan + cross-tool + HTTP probe + CVE lookup) eliminates many false reports
 - **Consistent Methodology** — AI agents apply the same systematic approach to every scan instead of manual variance
 - **Learning Over Time** — First WordPress scan uses defaults, 5th WordPress scan knows which tools are most effective
-- **Attack Chain Discovery** — Knowledge graph surfaces .multi-step attack paths that isolated findings would miss
+- **Attack Chain Discovery** — Knowledge graph surfaces . 4thmulti-step attack paths that isolated findings would miss
 </details>
 
 ---
